@@ -1,0 +1,41 @@
+
+/* jumbotron */
+#jumbotron {
+  background-image: url(img/bgkue.jpg); 
+  background-size: cover;
+  height: 200px;
+}
+
+#profile {
+  padding-top: 4rem;
+  background-color: #bcbab8;
+}
+
+/* galery */
+#galery {
+  background-color: #bcbab8;
+}
+
+/* section */
+section{
+  padding-top: 5rem;
+}
+
+/* versi desktop */
+@media (min-width: 992px) { 
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #A6A6A4;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+}
